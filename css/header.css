@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.page_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    top: 4rem;
+    width: 80%;
+    left: 50%;
+    margin-left: -40%;
+    
+}
+.header_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 2rem;
+    height: 2rem;
+}
+.header_search{
+    background-image: url(../img/search.svg);
+    margin-right: 4rem;
+}
+.header_cart{
+    background-image: url(../img/cart.svg);
+}
+
+.button{
+    width: 11.1rem;
+    height: 3.6rem;  
+    border: none; 
+    color: white;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.button_signUp{
+    color: #156963;
+}
+.button_signIn{
+    background-color: #156963;
+    
+}
+

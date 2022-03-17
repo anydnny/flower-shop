@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.page_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 1px solid #156963;
+    padding-top: 6rem;
+    margin-bottom: 7rem;
+}
+.address{
+    width: 29.8%;
+}
+.address h3{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 2.4rem;
+line-height: 2.4rem;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #156963;
+margin-bottom: 2.4rem;
+}
+.page_footer h4{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #333333;
+    margin-bottom: 2rem;
+}
+.address h4{
+    align-self: flex-start;
+    margin-bottom: 1rem;
+}
+address{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    color: #4F4F4F;
+    width: 100%;
+}
+.page_footer a{
+    display: block;
+    color: black;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    margin-bottom: 1.4rem;
+}
+.form{
+    width: 24.7%;
+    max-width: 23.4rem;
+}
+.email_input{
+    width: 100%;
+    height: 3.2rem;
+    margin-bottom: 1.4rem;
+    border: 1px solid #F2F2F2;
+    padding-left: 1.3rem;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    color:#2C1500;
+}
+
+.submit_btn{
+    width: 21.8%;
+    height: 2.2rem;
+    text-align: center;
+    background-color: #156963;
+    border: none;
+    border-radius: .2rem;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    cursor: pointer;
+}

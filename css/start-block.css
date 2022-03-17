@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.page_start-block{
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 14rem;
+}
+
+.start-block_image{
+  width: 100%;
+  height: auto;
+  max-width: 60.8rem;
+}
+.start-block_info-block{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.start-block_plant-info-wrapper{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 80.83%;
+}
+.start-block_plant-info{
+    display: flex;
+    flex-direction: column;
+    max-width: 52.3rem;;
+}
+.start-block_plant-name{
+    font-size: 6.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #156963;
+    line-height: 8.289rem;
+}
+.start-block_plant-desc{
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    line-height: 3.2rem;
+    max-width: 95%;
+}
+.start-block_plant-change{
+    display: flex;
+    flex-direction: row;
+    height: 16rem;
+}
+.start-block_plant-button{
+    width: 50%;
+    padding: 4.05rem 4.9rem 3.9rem 4.9rem;
+    cursor: pointer;
+}
+.start-block_plant-button span{
+    font-size: 3.2rem;
+    line-height: 3.9rem;
+}
+.start-block_button-header{
+    display: flex;
+    align-items: center; 
+}
+
+.start-block_button-header span{
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    
+}
+.button_prev span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #156963;
+}
+.button-header_left span{
+    margin-left: 1.33rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+}
+
+.button_next{
+    background-color: #156963;
+}
+.button_next span{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.button-header_right span{
+    margin-right: 1.33rem;
+    color: #F2F2F2;
+}
+
+

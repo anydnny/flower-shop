@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+.page_company-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 8.35rem;
+}
+.info-card_header{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   margin-bottom: 1.6rem;
+}
+
+.page_info-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #E0E0E0;
+    width: calc((100% - 9.6rem - 12.8rem)/4);
+    max-width: 30rem;
+    padding: .8rem 1.6rem;
+    height: 15.5rem;
+}
+.info-card_header h3{
+    font-family: "Montserat", sans-serif;
+    font-weight: 700;
+    color: rgba(21, 105, 99, 1);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-left: 1.6rem;
+}
+.page_info-card p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color:#2C1500;
+    width: 90%;
+    text-align: justify;
+}
